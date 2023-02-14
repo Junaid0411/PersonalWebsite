@@ -1,25 +1,100 @@
 body {
-     background-color: #BFEAF5;
+     margin: 0px;
+     text-align: center;
+     font-family: 'Merriweather', serif;
 }
 
 h1 {
-     color: #66BFBF;
+     margin-top: 0;
+     font-family: 'Sacramento', cursive;
+     font-size: 50px;
+
+}
+
+h2 {
+     font-family: 'Montserrat', sans-serif;
+
 }
 
 h3 {
-     color: #43a8a8;
+     font-family: 'Montserrat', sans-serif;
+
+}
+
+.top-container {
+     background-color: #BFEAF5;
+     position: relative;
+     padding-top: 100px;
+
+}
+
+.middle-container {
+}
+
+.bottom-container {
+     background-color: #BFEAF5;
+     position: relative;
+     padding-top: 10px;
+     margin: 0px;
+     height: 80px;
+}
+
+.contact-me {
+     background-color: #BFEAF5;
+     position: relative;
+     padding-bottom: 0.1px;
+     padding-top: 5px;
+}
+
+.top-cloud {
+     position: relative;
+     left: 250px;
+}
+
+.bottom-cloud {
+     position: absolute;
+     left: 350px;
+     bottom: 300px;
+}
+
+.profile-pic {
+     padding-top: 25px;
+     height: 200px;
+     width: 200px;
+}
+
+.computer {
+     height: 200px;
+     width: 200px;
+}
+
+.programmer {
+     font-size: 18px;
 }
 
 hr {
      border-style: none;
      border-top-style: dotted;
-     border-color: gray;
+     border-color: lightgray;
      border-width: 5px;
-     width: 5%;
+     width: 4.5%;
+ }
+ 
+
+.quote {
+     color: #2c3e50;
+     font-size: 36px;
+     line-height: 100%;
+     position: relative;
+     font-family: Georgia, serif;
+     width: 450px;
+     margin: 4% auto;
 }
 
-.Junaid:hover {
-     background-color: lightblue;
+.hr-custom {
+     padding: 20px;
+}
 
-     
+span {
+     text-decoration: underline;
 }
