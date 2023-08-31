@@ -2,88 +2,123 @@ body {
      margin: 0px;
      text-align: center;
      font-family: 'Merriweather', serif;
+     font-size: 1rem;
+}
+
+.junaid{
+     font-size:100px;
 }
 
 h1 {
-     margin-top: 0;
+     margin: 50px auto 0px auto;
      font-family: 'Sacramento', cursive;
-     font-size: 50px;
+     font-size: 4rem;
+     color: #66BFBF;
+     line-height: 1.5;
 
 }
 
 h2 {
      font-family: 'Montserrat', sans-serif;
+     font-size: 1.5rem;
+     font-weight: normal;
+     color: #66BFBF;
 
 }
 
 h3 {
      font-family: 'Montserrat', sans-serif;
+     color: #11999E;
+     font-size: 1rem;
+}
 
+a {
+     font-family: 'Montserrat', sans-serif;
+     color: #11999E;
+     padding-top: 5px;
+     padding-left: 50px;
+     padding-bottom: 50px;
+     text-decoration: none;
 }
 
 .top-container {
      background-color: #BFEAF5;
      position: relative;
-     padding-top: 100px;
-
+     padding-top: 0px;
 }
 
 .middle-container {
+     padding-bottom: 0px;
 }
 
 .bottom-container {
-     background-color: #BFEAF5;
+     background-color: #66BFBF;
      position: relative;
-     padding-top: 10px;
+     padding-top: 50px;
      margin: 0px;
      height: 80px;
 }
 
 .contact-me {
-     background-color: #BFEAF5;
+     background-color: white;
      position: relative;
      padding-bottom: 0.1px;
      padding-top: 5px;
+     padding-bottom: 50px;
+}
+
+.mountain {
+     position: relative;
 }
 
 .top-cloud {
      position: relative;
-     left: 250px;
+     left: 450px;
 }
 
 .bottom-cloud {
      position: absolute;
-     left: 350px;
+     left: 250px;
      bottom: 300px;
 }
 
 .profile-pic {
-     padding-top: 25px;
-     height: 200px;
-     width: 200px;
+     padding-top: 50px;
+     width: 15%;
+}
+
+.profile-pic-flex{
+     align-self:flex-end;
+     height: 70px;
+     width: 70px;
 }
 
 .computer {
-     height: 200px;
-     width: 200px;
+     width: 35%;
+     float: center;
+     margin-right: 0px;
+}
+
+.computer2 {
+     width: 30%;
+     float: right;
+     margin-left: 30px;
 }
 
 .programmer {
-     font-size: 18px;
 }
 
 hr {
      border-style: none;
      border-top-style: dotted;
-     border-color: lightgray;
+     border-color: rgba(211, 211, 211, 0.87);
      border-width: 5px;
-     width: 4.5%;
+     width: 2.5%;
  }
  
 
 .quote {
      color: #2c3e50;
-     font-size: 36px;
      line-height: 100%;
      position: relative;
      font-family: Georgia, serif;
@@ -92,9 +127,78 @@ hr {
 }
 
 .hr-custom {
-     padding: 20px;
+     padding: 50px;
 }
 
 span {
      text-decoration: underline;
+}
+
+.skill-row {
+     width: 25%;
+     margin: 50px auto 50px auto;
+     text-align: left;
+     line-height: 2;
+}
+
+p {
+     color: #40514E;
+}
+
+.rights-reserved {
+     color: #EAF6F6;
+     padding-top: 10px;
+}
+
+.btn {
+     background: #11cdd4;
+     background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+     background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+     background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+     background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+     background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+     -webkit-border-radius: 8;
+     -moz-border-radius: 8;
+     border-radius: 8px;
+     font-family: Arial;
+     color: #ffffff;
+     font-size: 20px;
+     padding: 10px 20px 10px 20px;
+     text-decoration: none;
+     border-color: white;
+     
+   }
+   
+   .btn:hover {
+     background: #30e3cb;
+     background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+     background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+     background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+     background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+     text-decoration: none;
+   }
+
+.feedback {
+     padding-bottom: 50px;
+}
+
+.flex-container{
+     display: flex;
+     gap: 1px;
+     padding: 20px;
+     padding-right: 30px;
+     background-color: #BFEAF5;
+     flex-direction:row-reverse;
+     font-size:17px;
+     flex:1;
+}
+
+.portfolio {
+     display: grid;
+     padding:10px;
+     margin:0px;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr 1fr;
+     gap: 50px;
 }
