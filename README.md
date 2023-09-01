@@ -1,3 +1,3 @@
 # Website
 
-<img width="947" alt="website" src="https://github.com/Junaid0411/PersonalWebsite/assets/62774004/b2dd41d2-a219-44e3-9248-b9fac86b8cc8">
+<img width="946" alt="website" src="https://github.com/Junaid0411/PersonalWebsite/assets/62774004/ace88598-9a11-4d85-82c4-4a04b94c0e37">
