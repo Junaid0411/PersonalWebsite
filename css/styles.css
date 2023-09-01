@@ -56,7 +56,7 @@ a {
      position: relative;
      padding-top: 50px;
      margin: 0px;
-     height: 80px;
+     height: 100px;
 }
 
 .contact-me {
@@ -84,6 +84,7 @@ a {
 
 .profile-pic {
      padding-top: 50px;
+     padding-bottom: 40px;
      width: 15%;
 }
 
@@ -140,8 +141,10 @@ p {
 }
 
 .rights-reserved {
+     background-color: #66BFBF;
      color: #EAF6F6;
      padding-top: 10px;
+     padding-bottom: 10px;
 }
 
 .btn {
@@ -174,7 +177,7 @@ p {
    }
 
 .feedback {
-     padding-bottom: 50px;
+     padding-bottom: 20px;
 }
 
 .flex-container{
@@ -195,4 +198,6 @@ p {
      grid-template-columns: 1fr 1fr;
      grid-template-rows: 1fr 1fr;
      gap: 50px;
+     justify-content: center;
+     align-items: center;
 }
