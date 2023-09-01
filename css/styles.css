@@ -54,16 +54,16 @@ a {
 .bottom-container {
      background-color: #66BFBF;
      position: relative;
-     padding-top: 50px;
+     padding-top: 30px;
      margin: 0px;
-     height: 100px;
+     height: 90px;
 }
 
 .contact-me {
      background-color: white;
      position: relative;
      padding-bottom: 0.1px;
-     padding-top: 5px;
+     padding-top: 0px;
      padding-bottom: 50px;
 }
 
@@ -94,35 +94,19 @@ a {
      width: 70px;
 }
 
-.project-logos {
-     margin: 0px;
-     width: 50%;
-     float: center;
-     margin-right: 0px;
-     box-shadow: 0 1px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-
-}
-
 hr {
      border-style: none;
      border-top-style: dotted;
-     border-color: rgba(211, 211, 211, 0.87);
+     border-color: rgba(129, 129, 129, 0.87);
      border-width: 5px;
      width: 2.5%;
+     align-self: center;
+     padding-bottom: 20px;
+     margin: auto;
  }
- 
-
-.quote {
-     color: #2c3e50;
-     line-height: 100%;
-     position: relative;
-     font-family: Georgia, serif;
-     width: 450px;
-     margin: 4% auto;
-}
 
 .hr-custom {
-     padding: 50px;
+     padding: 20px;
 }
 
 span {
@@ -193,11 +177,20 @@ p {
 
 .portfolio {
      display: grid;
-     padding:10px;
+     padding-top:50px;
+     padding-right: 40px;
      margin:0px;
-     grid-template-columns: 1fr 1fr;
-     grid-template-rows: 1fr 1fr;
-     gap: 50px;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     gap: 0px;
      justify-content: center;
      align-items: center;
+}
+
+.project-logos {
+     margin: 0px;
+     width: 100%;
+     float: center;
+     margin-right: 0px;
+     box-shadow: 0 1px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
 }
