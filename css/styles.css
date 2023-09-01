@@ -93,19 +93,13 @@ a {
      width: 70px;
 }
 
-.computer {
-     width: 35%;
+.project-logos {
+     margin: 0px;
+     width: 50%;
      float: center;
      margin-right: 0px;
-}
+     box-shadow: 0 1px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
-.computer2 {
-     width: 30%;
-     float: right;
-     margin-left: 30px;
-}
-
-.programmer {
 }
 
 hr {
