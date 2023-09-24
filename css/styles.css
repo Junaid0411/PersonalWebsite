@@ -131,7 +131,7 @@ p {
      padding-bottom: 10px;
 }
 
-.btn {
+.btn-contact {
      background: #11cdd4;
      background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
      background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
@@ -150,7 +150,7 @@ p {
      
    }
    
-   .btn:hover {
+   .btn-contact:hover {
      background: #30e3cb;
      background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
      background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
@@ -194,3 +194,38 @@ p {
      box-shadow: 0 1px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
 }
+
+body {
+     box-sizing: border-box;
+   }
+   
+   .resume-section {
+     text-align: center;
+     font-size: 1.2rem;
+     color: #4f4f4f;
+     font-family: "Poppins", sans-serif;
+   }
+   .list-inline {
+     list-style: none;
+   }
+   
+   .list-icons {
+     font-size: 2.5rem;
+   }
+   
+   #skill-bars {
+     width: 50%;
+     margin: 0 auto;
+   }
+   
+   .progress-bar,
+   .btn {
+     background-color: #11cdd4;
+   }
+   
+   .fa-user-tag,
+   .blue,
+   .list-inline-item i:hover {
+     color: #5fb4e8;
+     transition: all 0.2s ease-in-out;
+   }
